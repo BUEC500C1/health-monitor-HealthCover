@@ -12,3 +12,4 @@ Display module:
 
 Integrate:
 
+![structure](./structure.png Structure)
