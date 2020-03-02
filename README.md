@@ -4,7 +4,7 @@ Please select a module you like to work with:
 
 Sensor module:
 
-Database module:
+Database module: Yingqi Zhang
 
 Alert module:
 
