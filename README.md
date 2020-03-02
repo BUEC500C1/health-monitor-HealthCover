@@ -1,14 +1,14 @@
 # README
 
-Please select a module you like to work with:
+Please select a module you like to work with and discuss the interfaces of your module with your partners:
 
-Sensor module:
+Sensor module: Zhou Fang
 
 Database module: Yingqi Zhang
 
-Alert module: Ningrong Chen
+Alert module:
 
-Display module: Yanyu Zhang
+Display module:
 
 Integrate:
 
