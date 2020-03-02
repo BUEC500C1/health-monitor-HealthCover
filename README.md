@@ -6,10 +6,9 @@ Sensor module: Zhou Fang
 
 Database module: Yingqi Zhang
 
-Alert module:
+Alert module: NingrongChen
 
 Display module:
 
 Integrate:
 
-![structure](./structure.png Structure)
