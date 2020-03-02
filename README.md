@@ -12,4 +12,4 @@ Display module:
 
 Integrate:
 
-![alt](./structure.png title)
+![alt](./structure.png "title")
