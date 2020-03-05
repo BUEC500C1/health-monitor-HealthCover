@@ -8,7 +8,7 @@ Database module: Yingqi Zhang
 
 Alert module: NingrongChen
 
-Display module:
+Display module: Yanyu Zhang
 
 Integrate:
 
