@@ -1,15 +1,5 @@
-# README
-
-Please select a module you like to work with and discuss the interfaces of your module with your partners:
-
-Sensor module: Zhou Fang
-
-Database module: Yingqi Zhang
-
-Alert module: NingrongChen
-
-Display module: Yanyu Zhang
-
-Integrate:
-
-![alt](./structure.png "title")
+# Display module: Yanyu Zhang
+## The result is showing below:
+<p align="middle">
+  <img src= "https://github.com/BUEC500C1/health-monitor-healthmonitorfive/blob/Yanyu-Zhang/health_monitor.png" width= 500>
+</p>
