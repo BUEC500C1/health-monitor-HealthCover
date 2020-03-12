@@ -1,17 +1,51 @@
-# README
+# HEALTHCOVER
 
-Please select a module you like to work with and discuss the interfaces of your module with your partners:
+## Team Members
+- Sensor module: Zhou Fang
+- Database module: Yingqi Zhang
+- Alert module: NingrongChen
+- Display module: Yanyu Zhang(zhangya@bu.edu)
+- Integrate:
 
-Sensor module: Zhou Fang
+## Product Definition
 
-Database module: Yingqi Zhang
+### Project Mission
+- In order to help hospitals and patients get their health infromation, our aim is to design a health monitor named "HEALTHCOVER".
 
-Alert module: NingrongChen
+### Users
+- Hospitals
+- Patients
 
-Display module: Yanyu Zhang
+### User story
+- As a user, I want to see my patient’s pulse on configurable time intervals (e.g., 10 minutes)
+- As a user, I want to see my patient’s blood pressure on configurable time intervals (e.g., 10 minutes)
+- As a user, I want to see my patient’s blood Oxygen levels on configurable time intervals (e.g., 10 minutes)
+- As a user, I want to get alerts if any of the Vitals go above and/or below certain value.
+- As a user, I want to get future prediction based on an AI module we have purchased and should be integrated into the system.
+<p align="middle">
+  <img src= "https://github.com/BUEC500C1/health-monitor-healthmonitorfive/blob/master/structure.png" width= 500>
+</p>
 
-Integrate:
 
-![alt](./structure.png "title")
+## Method and Solotion
+### Sensor module
+### Database module
+### Alert module
+
+### Display module
+- In order to display all the patient's information and set an alarm for the alerts, I used a very useful Python tools: QT. PyQt is very useful tool to develop a cross-platform and it uses the system's resources to draw windows, controls, etc so your application will get a native look.
+
+- Qt is open source and is developed by the Qt Group (formerly Trolltech) at Nokia so you have a very large enterprise maintaining it with the support from the community and ensuring it's evolution.
+
+- It has the best GUI designer I've ever seen.
+
+#### The result is showing below:
+<p align="middle">
+  <img src= "https://github.com/BUEC500C1/health-monitor-healthmonitorfive/blob/master/Display/health_monitor.png" width= 500>
+</p>
+
+### Integrate
+
+
 
 
