@@ -5,7 +5,7 @@
 - Database module: Yingqi Zhang
 - Alert module: NingrongChen
 - Display module: Yanyu Zhang(zhangya@bu.edu)
-- Integrate:
+- Integrate: Yufeng Lin
 
 ## Product Definition
 
