@@ -13,6 +13,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 #Importing the excel data 
 def prediction(time):
+    #Replace health.csv with data stored in the database
     dataset = pd.read_csv(r'health.csv')
     x=dataset.loc[0:dataset['Time'].size-1,'Time'].values
     yPulse=dataset.loc[0:dataset['Pulse'].size-1,'Pulse'].values
