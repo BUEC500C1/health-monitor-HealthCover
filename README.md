@@ -5,6 +5,7 @@
 - Database module: Yingqi Zhang
 - Alert module: NingrongChen
 - Display module: Yanyu Zhang(zhangya@bu.edu)
+- Prediction module：Luxuan Qi
 - Integrate: Yufeng Lin
 
 ## Product Definition
@@ -31,7 +32,7 @@
 ### Sensor module:
 ### Database module:
 ### Alert module:
-
+### Prediction module:
 ### Display module:
 - In order to display all the patient's information and set an alarm for the alerts, I used a very useful Python tools: QT. PyQt is very useful tool to develop a cross-platform and it uses the system's resources to draw windows, controls, etc so your application will get a native look.
 
