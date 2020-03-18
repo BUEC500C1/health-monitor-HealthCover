@@ -11,10 +11,14 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
+from Database.database import request_data
+
 #Importing the excel data 
 def prediction(time):
     #Replace health.csv with data stored in the database
-    dataset = pd.read_csv(r'health.csv')
+    file_path = request_data()
+    dataset = pd.read_csv(file_path)
+    #dataset = pd.read_csv(r'health.csv')
     x=dataset.loc[0:dataset['Time'].size-1,'Time'].values
     yPulse=dataset.loc[0:dataset['Pulse'].size-1,'Pulse'].values
     yBP=dataset.loc[0:dataset['BloodPressure'].size-1,'BloodPressure'].values
