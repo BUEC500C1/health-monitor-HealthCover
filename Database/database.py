@@ -2,8 +2,8 @@ import csv
 from threading import Lock
 from Sensor.sensor import request_index, request_time_interval
 
-data_path = './Database/datas.csv'
-training_set_path = './Database/health.csv'
+data_path = '../Database/datas.csv'
+training_set_path = '../Database/health.csv'
 read_write_lock = Lock()
 write_ptr = 0
 fptr = open(data_path, 'w')
