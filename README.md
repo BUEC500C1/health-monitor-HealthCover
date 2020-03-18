@@ -3,7 +3,7 @@
 ## Team Members
 - Sensor module: Zhou Fang
 - Database module: Yingqi Zhang
-- Alert module: NingrongChen
+- Alert module: NingrongChen(noracnr@bu.edu)
 - Display module: Yanyu Zhang(zhangya@bu.edu)
 - Prediction module：Luxuan Qi
 - Integrate: Yufeng Lin
@@ -32,6 +32,7 @@
 ### Sensor module:
 ### Database module:
 ### Alert module:
+<a href="https://github.com/BUEC500C1/health-monitor-HealthCover/blob/master/Alert/README.md">Click here to Alert README</a>
 ### Prediction module:
 ### Display module:
 - In order to display all the patient's information and set an alarm for the alerts, I used a very useful Python tools: QT. PyQt is very useful tool to develop a cross-platform and it uses the system's resources to draw windows, controls, etc so your application will get a native look.
