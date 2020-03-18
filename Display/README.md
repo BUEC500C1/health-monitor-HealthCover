@@ -5,6 +5,7 @@
 
 - It has the best GUI designer I've ever seen.
 # The result is showing below:
+In the image, you can see the patient's name and the current time, also you can see the health rate...
 <p align="middle">
   <img src= "https://github.com/BUEC500C1/health-monitor-healthmonitorfive/blob/master/Display/health_monitor.png" width= 500>
 </p>
