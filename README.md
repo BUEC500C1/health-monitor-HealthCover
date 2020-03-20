@@ -24,7 +24,7 @@
 - As a user, I want to get alerts if any of the Vitals go above and/or below certain value.
 - As a user, I want to get future prediction based on an AI module we have purchased and should be integrated into the system.
 <p align="middle">
-  <img src= "https://github.com/BUEC500C1/health-monitor-healthmonitorfive/blob/master/structure.png" width= 500>
+  <img src= "https://github.com/BUEC500C1/health-monitor-HealthCover/blob/master/graph.png">
 </p>
 
 
