@@ -11,7 +11,8 @@
 ## Product Definition
 
 ### Project Mission
-- In order to help hospitals and patients get their health infromation, our aim is to design a health monitor named "HEALTHCOVER".
+- In order to help hospitals and patients get their health infromation, our aim is to design a health monitor named "HEALTHCOVER". 
+- The HealthCover can receive the health information from different sensors and send to the central processor. The processor can make a prediction based on the linear regression and send a warning if the patients have a dangrous in the future. 
 
 ### Users
 - Hospitals
