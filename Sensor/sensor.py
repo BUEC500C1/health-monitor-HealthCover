@@ -11,12 +11,12 @@ def tn(h,m,s):
 def sensor(n):
     data = {}
     #mmHg
-    data['blood_pressure_low'] = round(random.uniform(60,80),n)
-    data['blood_pressure_high'] = round(random.uniform(100,130),n)
+    data['blood_pressure_low'] = round(random.uniform(50,99),n)
+    data['blood_pressure_high'] = round(random.uniform(70,150),n)
     #%
-    data['blood_oxygen'] = round(random.uniform(95,100),n)
-    data['heart_rate'] = round(random.randint(60,100),n)
-    data['awRR'] = random.randint(12,20)
+    data['blood_oxygen'] = round(random.uniform(80,120),n)
+    data['heart_rate'] = round(random.randint(50,90),n)
+    data['awRR'] = random.randint(8,24)
     return data
 
 def timer(h,m,s):
