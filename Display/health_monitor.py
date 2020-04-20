@@ -26,10 +26,7 @@ class MyMainForm(QMainWindow, Ui_Form):
  
 if __name__ == "__main__":
 	app = QApplication(sys.argv)
-	myWin = MyMainForm(name='Yanyu Zhang', 
-						pulse='80', 
-						blood_pressure='120', 
-						lcdNumber_3='57')
+	myWin = MyMainForm(name='Yanyu Zhang', pulse='80', blood_pressure='120', lcdNumber_3='57')
 	myWin.show()
 	sys.exit(app.exec_())
 
