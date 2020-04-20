@@ -1,4 +1,4 @@
-from health-monitor-healthmonitorfive.Sensor.sensor import sensor
+from sensor import timer
 from io import StringIO
 import sys
 import time
@@ -21,9 +21,10 @@ class Alert():
     # time
     self.time_hr_large = []
 
-  def check(self, data={'blood_pressure_low':80,'blood_pressure_high':120,'blood_oxygen':99,'heart_rate':90,'awRR':18})：
+  def check(self, data={'blood_pressure_low':80,'blood_pressure_high':120,'blood_oxygen':99,'heart_rate':90,'awRR':18}):
     self.data = data
-
+    print(data)
+    self.alert = []
     # orthostatic hypotension
     if (self.previous_data != {}):
       dec_blood_pressure_low = self.previous_data['blood_pressure_low'] - data['blood_pressure_low']
@@ -34,44 +35,57 @@ class Alert():
 
     # normal hypertension and isolated systolic Hypertension
     if data['blood_pressure_high'] > 140 and data['blood_pressure_low'] > 90:
-      w2 = "Hypertension"
-      self.alert.append(w2)
+      w2 = "Warning: Hypertension"
+      if w2 not in self.alert:
+        self.alert.append(w2)
       print(w2)
     elif data['blood_pressure_high'] > 140 and data['blood_pressure_low'] < 90:
-      w3 = "isolated systolic Hypertension"
-      self.alert.append(w3)
+      w3 = "Warning: isolated systolic Hypertension"
+      if w3 not in self.alert:
+        self.alert.append(w3)
       print(w3)
 
     # heart rate
     if data['heart_rate'] > 100 and self.previous_data['heart_rate'] > 100:
-      w4 = "Tachycardia"
-      self.alert.append(w4)
+      w4 = "Warning: Tachycardia"
+      if w4 not in self.alert:
+        self.alert.append(w4)
       print(w4)
     elif data['heart_rate'] < 60 and self.previous_data['heart_rate'] < 60:
-      w5 = "Bradycardia"
-      self.alert.append(w5)
+      w5 = "Warning: Bradycardia"
+      if w5 not in self.alert:
+        self.alert.append(w5)
       print(w5)
 
     # blood oxygen 
     if data['blood_oxygen'] < 75:
       w6 = "Emergency: blood oxygen < 75% , may lose conscious"
-      self.alert.append(w6)
+      if w6 not in self.alert:
+        self.alert.append(w6)
       print(w6)
     elif data['blood_oxygen'] < 80:
       w7 = "Emergency: blood oxygen < 80% , may impair mental function"
-      self.alert.append(w7)
+      if w7 not in self.alert:
+        self.alert.append(w7)
       print(w7)
     elif data['blood_oxygen'] < 90:
       w8 = "Warning: blood oxygen < 90% , may cause hypoxia"
-      self.alert.append(w8)
+      if w8 not in self.alert:
+        self.alert.append(w8)
       print(w8)
 
     # awRR or respiratory rate
     if data['awRR'] < 12:
       w9 = "Warning: hard to breathe"
-      self.alert.append(w9)
+      if w9 not in self.alert:
+        self.alert.append(w9)
       print(w9)
 
     self.previous_data = data
-    return self.time_hr_large
+    return self.alert
+
+if __name__ == '__main__':
+  a = Alert('new');
+  while True :
+    print(a.check(timer(0,0,1)))
 
