@@ -6,14 +6,14 @@ from PyQt5.QtGui import *
 from qt_health import *
 
 class MyMainForm(QMainWindow, Ui_Form):
-	def __init__(self, parent=None):
+	def __init__(self, name, pulse, blood_pressure, lcdNumber_3, parent=None):
 		super(MyMainForm, self).__init__(parent)
 		self.setupUi(self)
-		self.name.setText("Yanyu Zhang")
+		self.name.setText(name)
 		# self.time.setText("current")
-		self.pulse.display("80")
-		self.blood_pressure.display("120")
-		self.lcdNumber_3.display("57")
+		self.pulse.display(pulse)
+		self.blood_pressure.display(blood_pressure)
+		self.lcdNumber_3.display(lcdNumber_3)
 		timer = QTimer(self.time)
 		timer.timeout.connect(self.showtime)
 		timer.start()
@@ -26,7 +26,10 @@ class MyMainForm(QMainWindow, Ui_Form):
  
 if __name__ == "__main__":
 	app = QApplication(sys.argv)
-	myWin = MyMainForm()
+	myWin = MyMainForm(name='Yanyu Zhang', 
+						pulse='80', 
+						blood_pressure='120', 
+						lcdNumber_3='57')
 	myWin.show()
 	sys.exit(app.exec_())
 
