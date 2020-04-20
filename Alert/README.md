@@ -1,4 +1,6 @@
 # Alert
+# Warning!
+需要把sensor中timer的import路径改一下。
 
 ### Blood Pressure
 ![blood pressure](./img/hypertension.png)[1]
