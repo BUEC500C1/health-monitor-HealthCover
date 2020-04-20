@@ -8,7 +8,7 @@ class Ui_Form(object):
     def setupUi(self, Form):
         Form.resize(800, 391)
         background = QPalette()
-        background.setBrush(Form.backgroundRole(), QBrush(QPixmap('background.jpg')))   # 设置背景图片
+        background.setBrush(Form.backgroundRole(), QBrush(QPixmap('images/background.jpg')))   # 设置背景图片
         Form.setPalette(background)
         self.verticalLayoutWidget = QtWidgets.QWidget(Form)
         self.verticalLayoutWidget.setGeometry(QtCore.QRect(360, 10, 211, 301))
