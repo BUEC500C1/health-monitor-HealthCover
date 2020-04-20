@@ -58,7 +58,7 @@ class Ui_Form(object):
         # Form.setWindowIcon(QIcon('icon.jpg'))
         Form.setWindowTitle(_translate("Form", "Health Monitor"))
         self.label.setToolTip(_translate("Form", "<html><head/><body><p><span style=\" font-size:36pt;\">Name</span></p></body></html>"))
-        self.label.setText(_translate("Form", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt;\">Name:</span></p></body></html>"))
+        self.label.setText(_translate("Form", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt;\">Alert:</span></p></body></html>"))
         self.label_2.setText(_translate("Form", "<html><head/><body><p><span style=\" font-size:24pt;\">BPM</span></p></body></html>"))
         self.label_3.setText(_translate("Form", "<html><head/><body><p><span style=\" font-size:24pt;\">mmHg</span></p></body></html>"))
         self.label_4.setText(_translate("Form", "<html><head/><body><p><span style=\" font-size:24pt;\">%</span></p></body></html>"))
