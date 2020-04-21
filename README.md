@@ -47,9 +47,19 @@ The result is showing below:
   <img src= "https://github.com/BUEC500C1/health-monitor-HealthCover/blob/master/Display/health_monitor.png" width= 500>
 </p>
 
-### Integrate:
-pseudo code that simulate an actual process of calling out, modules need to interact with each other.
-
+### Integration:
+```
+git clone https://github.com/BUEC500C1/health-monitor-HealthCover.git
+```
+"cd" to the Integrated folder and then 
+```
+python main.py
+```
+And you can see the following example result: <br/>
+Green box: example of NORMAL state (Default is NORMAL) <br/>
+Red box: example of WARNING state <br/>
+Yellow box: example of prediction of future parameters <br/>
+![res](https://github.com/BUEC500C1/health-monitor-HealthCover/blob/master/run.png)
 
 
 
