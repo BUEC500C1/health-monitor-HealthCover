@@ -58,9 +58,8 @@ python main.py
 And you can see the following example result: <br/>
 - Green box: example of NORMAL state (Default is NORMAL) <br/>
 - Red box: example of WARNING state <br/>
-- Yellow box: example of prediction of future parameters <br/>
-<br/>
-<br/>
+- Yellow box: example of prediction of future parameters <br/><br/><br/>
+
 ![res](https://github.com/BUEC500C1/health-monitor-HealthCover/blob/master/run.png)
 
 
