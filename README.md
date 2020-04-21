@@ -38,8 +38,9 @@
 - Pass in the time to be estimated in the prediction function.
 - The database.py file stores the data in a csv file. Read the data before the estimated time from the csv file, use ML's linear regression algorithm to analyze the previous data, and use this to estimate the required data and print the results.
 <p align="middle">
-  <img src= "https://github.com/BUEC500C1/health-monitor-HealthCover/blob/master/Prediction/predict.png" >
-</p>
+  <img src= "https://github.com/BUEC500C1/health-monitor-HealthCover/blob/master/Prediction/predict.png" height = 400>
+</p>   
+   
 ### Display module:
 - In order to display all the patient's information and set an alarm for the alerts, I used a very useful Python tools: QT. PyQt is very useful tool to develop a cross-platform and it uses the system's resources to draw windows, controls, etc so your application will get a native look.
 
