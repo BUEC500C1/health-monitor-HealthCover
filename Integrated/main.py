@@ -23,11 +23,25 @@ if __name__ == '__main__':
 		signal = "NORMAL"
 		if len(event.alert) != 0:
 			signal = event.alert[0]
-		# pull GUI to display data and alert
-		health_monitor.monitor(signal,pulse,blood_pressure,blood_oxygen)
+
+		print("-------Current State-------")
+		print("Time: ", i)
+		print("Pulse: ",pulse)
+		print("Blood Pressure: ",blood_pressure)
+		print("Blood Oxygen: ",blood_oxygen)
+		print("Alert Status: ",signal)
+
+		
+		print("------- Prediction -------")
 		# make prediction based on data in database
 		print("Prediction of future parameters :")
-		print("time now is :", i)
 		prediction(i)
+
+	#example of pulling a GUI Interface
+	signal = "NORMAL"
+	pulse = 87
+	blood_pressure = 120
+	blood_oxygen = 96
+	health_monitor.monitor(signal,pulse,blood_pressure,blood_oxygen)
 
 
